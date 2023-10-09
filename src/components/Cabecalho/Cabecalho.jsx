@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import "./Cabecalho.scss";
 
 export default function Cabecalho() {
+
+  
+
   return (
     <>
-      <header>
-        <h1>Vite+React coded by - PF0670</h1>
+      <header className="cabecalho">
         <nav>
           <ul>
             <li><Link to="/">Home</Link> </li>
